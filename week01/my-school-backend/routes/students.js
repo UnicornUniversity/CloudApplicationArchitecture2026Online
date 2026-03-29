@@ -10,5 +10,11 @@ router.get("/get/:idStudent", async (req, res, next) => {
     res.json(studentHelper.studentGetById(allStudents, allClasses, parseInt(req.params.idStudent)));
 });
 
+router.get("/class/:id", async (req, res, next) => {
+    res.json(studentHelper.getStudentsByClass(await dml.readStudents(), parseInt(req.params.id)));
+});
+
+
+
 
 module.exports = router;
