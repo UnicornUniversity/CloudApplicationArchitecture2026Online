@@ -1,0 +1,27 @@
+[
+  {
+    "dogName": "Amalia",
+    "dogSize": "1",
+    "dogUrl": "images\\dog5.jpg"
+  },
+  {
+    "dogName": "Killer",
+    "dogSize": "2",
+    "dogUrl": "images\\dog2.jpg"
+  },
+  {
+    "dogName": "Max",
+    "dogSize": "0",
+    "dogUrl": "images\\dog3.jpg"
+  },
+  {
+    "dogName": "Gloria",
+    "dogSize": "1",
+    "dogUrl": "images\\dog1.jpg"
+  },
+  {
+    "dogName": "Queen",
+    "dogSize": "1",
+    "dogUrl": "images\\dog4.jpg"
+  }
+]
